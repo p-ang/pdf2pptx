@@ -33,3 +33,8 @@ jobs:
             pdf2pptx "$file"
           fi
         done
+    - name: Upload PPTX files as artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: generated-pptx
+        path: pdf-files/*.pptx
