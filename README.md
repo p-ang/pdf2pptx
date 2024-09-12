@@ -8,11 +8,13 @@ to present a set of PDF slides (e.g. slides from Beamer). You can then
 use the presentation capabilities of Powerpoint (notes, ink on slides,
 etc.) with slides created in LaTeX.
 
-I use this to present PDF slides on a Surface Pro so that I can annotate
-them with a stylus as I present.
-
 Uses [PyMuPDF](https://github.com/pymupdf/PyMuPDF) and 
 [python-pptx](https://github.com/scanny/python-pptx) to do the hard work.
+
+This is a very lightly tweaked version of the original library, which 
+can be found [here](https://github.com/kevinmcguinness/pdf2pptx). The 
+tweaks only address broken dependencies.
+
 
 ## Installation
 
